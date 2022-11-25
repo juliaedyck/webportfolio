@@ -112,7 +112,7 @@ font-size: 50px;
 }
 
 @media (max-width: 767px) {
-margin-left: 27%;
+/* margin-left: 27%; */
     
 }
 `
