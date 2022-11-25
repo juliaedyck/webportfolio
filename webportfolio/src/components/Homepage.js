@@ -52,6 +52,7 @@ production & sound design
 const Wrapper = styled.div`
 height: 150%;
 width: 100%;
+max-width: 100%;
 background-color: #8cfa9c;
 background-size: contain;
 position: absolute;
@@ -70,12 +71,14 @@ const Contents = styled.div`
 
 width: 100%;
 margin-top: 2%;
+/* max-width: 100%; */
 display: flex;
 flex-direction: row;
 align-items: flex-start;
 
 @media (max-width: 767px) {
 margin-left: 10%;
+max-width: 90%;
     
 }
 
@@ -118,6 +121,7 @@ font-size: 50px;
 `
 
 const Columns = styled.div`
+max-width:80%;
 display: flex;
 flex-direction: row;
 @media (max-width: 820px) {
@@ -131,10 +135,12 @@ display: flex;
 flex-direction: column;
 margin-left: 22%;
 min-width: 60%;
+/* max-width: 70%; */
 
 @media (max-width: 820px) {
     margin-left: 10%;
-    max-width: 90%;
+    /* max-width: 70%; */
+    padding-right: 5%;
 }
 
 `
@@ -142,6 +148,7 @@ min-width: 60%;
 const Column2 = styled.div`
 display: flex;
 flex-direction: column;
+max-width: 80%;
 @media (max-width: 820px) {
     margin-left: 10%;
     margin-top: 5%;
@@ -152,6 +159,7 @@ const Div = styled.div`
 /* padding-bottom: 3%; */
 font-weight: bold;
 font-family: 'Work Sans', sans-serif;
+/* max-width: 80%; */
 `
 
 const Link = styled.a`
