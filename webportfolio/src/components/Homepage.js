@@ -133,7 +133,7 @@ margin-left: 22%;
 min-width: 60%;
 
 @media (max-width: 820px) {
-    margin-left: 25%;
+    margin-left: 20%;
 }
 
 `
