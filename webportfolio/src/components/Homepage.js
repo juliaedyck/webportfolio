@@ -106,7 +106,7 @@ font-size: 50px;
 }
 
 @media (max-width: 767px) {
-margin-left: 22%;
+margin-left: 27%;
     
 }
 `
