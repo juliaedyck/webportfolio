@@ -24,7 +24,7 @@ design & development
 concept, storyboard, design, sound
 <div>in collaboration with Ada X, Amanda Harvey, Miranda Jones, Sophie Marisol</div>
 </Div>
- <Link target="_blank" href= 'https://hubs.mozilla.com/h3Ls7Bb/surrender-honeydew-conclave/'><Italic> If you could be anywhere </Italic>VR experience </Link>
+ <Link target="_blank" href= 'https://hubs.mozilla.com/h3Ls7Bb/surrender-honeydew-conclave/'> If you could be anywhere - VR experience </Link>
  <Div>
 design
 </Div>
@@ -36,7 +36,7 @@ production & sound design
  <Div>
 production & sound design
 </Div>
- <Link target="_blank" href= 'https://vision2032.cmf-fmc.ca/redesigning-value/economic-potential-and-growth-the-business-side-of-bringing-canadian'> <Italic>Representation is the future</Italic>, Canadian Media Fund  </Link>
+ <Link target="_blank" href= 'https://vision2032.cmf-fmc.ca/redesigning-value/economic-potential-and-growth-the-business-side-of-bringing-canadian'> Representation is the future - Canadian Media Fund  </Link>
  </Column1>
  <Column2>
  juliaedyck@gmail.com
@@ -106,7 +106,7 @@ font-size: 50px;
 }
 
 @media (max-width: 767px) {
-margin-left: 18%;
+margin-left: 22%;
     
 }
 `
