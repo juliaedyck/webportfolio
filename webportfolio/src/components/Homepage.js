@@ -134,6 +134,7 @@ min-width: 60%;
 
 @media (max-width: 820px) {
     margin-left: 10%;
+    max-width: 90%;
 }
 
 `
@@ -142,7 +143,7 @@ const Column2 = styled.div`
 display: flex;
 flex-direction: column;
 @media (max-width: 820px) {
-    margin-left: 25%;
+    margin-left: 10%;
     margin-top: 5%;
 }
 `
