@@ -67,11 +67,17 @@ background-position: center;
 `
 
 const Contents = styled.div`
+
 width: 100%;
 margin-top: 2%;
 display: flex;
 flex-direction: row;
 align-items: flex-start;
+
+@media (max-width: 767px) {
+margin-left: 10%;
+    
+}
 
 `
 const Header= styled.div`
