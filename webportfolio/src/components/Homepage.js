@@ -138,7 +138,7 @@ min-width: 60%;
 /* max-width: 70%; */
 
 @media (max-width: 820px) {
-    margin-left: 10%;
+    margin-left: 15%;
     /* max-width: 70%; */
     padding-right: 5%;
 }
@@ -150,7 +150,7 @@ display: flex;
 flex-direction: column;
 max-width: 80%;
 @media (max-width: 820px) {
-    margin-left: 10%;
+    margin-left: 15%;
     margin-top: 5%;
 }
 `
