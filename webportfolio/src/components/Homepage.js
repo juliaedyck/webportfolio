@@ -1,4 +1,3 @@
-
 import styled from "styled-components";
 
 const Homepage = () => {
@@ -17,6 +16,12 @@ const Homepage = () => {
             <Link target="_blank" href="https://akindofharmony.com/">
               {" "}
               akindofharmony.com{" "}
+            </Link>
+
+            <Div>design & development</Div>
+            <Link target="_blank" href="https://www.nibakure.org/">
+              {" "}
+              nibakure.org{" "}
             </Link>
 
             <Div>
