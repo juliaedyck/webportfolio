@@ -7,15 +7,22 @@ const Homepage = () => {
         <Header>Julia E Dyck</Header>
         <Columns>
           <Column1>
+            <Div> podcast production, web design & development</Div>
+            <Link target="_blank" href="https://akindofharmony.com/">
+              {" "}
+              akindofharmony.com{" "}
+
+            </Link>
             <Div>design & development</Div>
             <Link target="_blank" href="http://audioplaceboplaza.com/">
               {" "}
               audioplaceboplaza.com{" "}
             </Link>
-            <Div>design & development</Div>
-            <Link target="_blank" href="https://akindofharmony.com/">
+
+     <Div>design & development</Div>
+            <Link target="_blank" href="https://www.juliaedyck.com/">
               {" "}
-              akindofharmony.com{" "}
+              juliaedyck.com{" "}
             </Link>
 
             <Div>design & development</Div>
@@ -38,11 +45,7 @@ const Homepage = () => {
               {" "}
               If you could be anywhere - VR experience{" "}
             </Link>
-            <Div>design & development</Div>
-            <Link target="_blank" href="https://www.juliaedyck.com/">
-              {" "}
-              juliaedyck.com{" "}
-            </Link>
+       
             <Div>production & sound design</Div>
             <Link
               target="_blank"
