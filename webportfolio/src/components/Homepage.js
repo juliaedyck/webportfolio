@@ -13,19 +13,32 @@ const Homepage = () => {
               akindofharmony.com{" "}
 
             </Link>
-            <Div>design & development</Div>
+            <Div>project, web design & development</Div>
             <Link target="_blank" href="http://audioplaceboplaza.com/">
               {" "}
               audioplaceboplaza.com{" "}
             </Link>
 
-     <Div>design & development</Div>
+            <Div>web design & development</Div>
+            <Link target="_blank" href="https://hadassahemmerich.com/">
+              {" "}
+              hadassahemmerich.com{" "}
+            </Link>
+
+
+            <Div>web design & development</Div>
+            <Link target="_blank" href="https://www.nothingwrongwithpeople.com/en/menu">
+              {" "}
+              nothingwrongwithpeope.com{" "}
+            </Link>
+
+     <Div>web design & development</Div>
             <Link target="_blank" href="https://www.juliaedyck.com/">
               {" "}
               juliaedyck.com{" "}
             </Link>
 
-            <Div>design & development</Div>
+            <Div>web design & development</Div>
             <Link target="_blank" href="https://www.nibakure.org/">
               {" "}
               nibakure.org{" "}
