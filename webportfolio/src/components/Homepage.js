@@ -118,7 +118,7 @@ const Contents = styled.div`
   }
 `;
 const Header = styled.div`
-  font-family: "Source Serif Pro", serif;
+  font-family: "Source Serif Pro", serif;;
   writing-mode: vertical-rl;
   position: fixed;
   font-size: 120px;
