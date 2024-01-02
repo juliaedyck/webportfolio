@@ -11,12 +11,18 @@ const Homepage = () => {
             <Link target="_blank" href="https://akindofharmony.com/">
               {" "}
               akindofharmony.com{" "}
-
             </Link>
+
             <Div>project, web design & development</Div>
             <Link target="_blank" href="http://audioplaceboplaza.com/">
               {" "}
               audioplaceboplaza.com{" "}
+            </Link>
+
+            <Div>project, web design & development</Div>
+            <Link target="_blank" href="http://tr4nc3.com/">
+              {" "}
+              tr4nc3.com{" "}
             </Link>
 
             <Div>web design & development</Div>
@@ -25,6 +31,12 @@ const Homepage = () => {
               hadassahemmerich.com{" "}
             </Link>
 
+
+            <Div>web design & development</Div>
+            <Link target="_blank" href="https://umland.be">
+              {" "}
+              umland.be{" "}
+            </Link>
 
             <Div>web design & development</Div>
             <Link target="_blank" href="https://www.nothingwrongwithpeople.com/en/menu">
@@ -88,13 +100,14 @@ const Homepage = () => {
   );
 };
 const Wrapper = styled.div`
-  height: 150%;
+  height: 100vh;
   width: 100%;
   max-width: 100%;
   background-color: #8cfa9c;
   background-size: contain;
   position: absolute;
   background-position: center;
+  overflow: scroll;
 
   @media (max-width: 1500px) {
     /* background-size: cover; */
@@ -111,14 +124,17 @@ const Contents = styled.div`
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  background-color: #8cfa9c;
 
   @media (max-width: 767px) {
     margin-left: 10%;
     max-width: 90%;
+  background-color: #8cfa9c;
+
   }
 `;
 const Header = styled.div`
-  font-family: "Source Serif Pro", serif;;
+  font-family: "Source Serif Pro", serif;
   writing-mode: vertical-rl;
   position: fixed;
   font-size: 120px;
@@ -154,6 +170,8 @@ const Columns = styled.div`
   max-width: 80%;
   display: flex;
   flex-direction: row;
+  background-color: #8cfa9c;
+
   @media (max-width: 820px) {
     flex-direction: column;
   }
@@ -163,12 +181,16 @@ const Column1 = styled.div`
   flex-direction: column;
   margin-left: 22%;
   min-width: 60%;
+  background-color: #8cfa9c;
+
   /* max-width: 70%; */
 
   @media (max-width: 820px) {
     margin-left: 15%;
     /* max-width: 70%; */
     padding-right: 5%;
+  background-color: #8cfa9c;
+
   }
 `;
 
