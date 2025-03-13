@@ -26,12 +26,6 @@ const Homepage = () => {
             </Link>
 
             <Div>project, web design & development</Div>
-            <Link target="_blank" href="http://audioplaceboplaza.com/">
-              {" "}
-              audioplaceboplaza.com{" "}
-            </Link>
-
-            <Div>project, web design & development</Div>
             <Link target="_blank" href="http://tr4nc3.com/">
               {" "}
               tr4nc3.com{" "}
@@ -42,11 +36,11 @@ const Homepage = () => {
               {" "}
               umland.be{" "}
             </Link>
-
-            <Div>web design & development</Div>
-            <Link target="_blank" href="https://www.nothingwrongwithpeople.com/en/menu">
+            
+            <Div>project, web design & development</Div>
+            <Link target="_blank" href="http://audioplaceboplaza.com/">
               {" "}
-              nothingwrongwithpeope.com{" "}
+              audioplaceboplaza.com{" "}
             </Link>
 
      <Div>web design & development</Div>
@@ -59,21 +53,6 @@ const Homepage = () => {
             <Link target="_blank" href="https://www.nibakure.org/">
               {" "}
               nibakure.org{" "}
-            </Link>
-
-            <Div>
-              concept, storyboard, design, sound
-              <div>
-                in collaboration with Ada X, Amanda Harvey, Miranda Jones,
-                Sophie Marisol
-              </div>
-            </Div>
-            <Link
-              target="_blank"
-              href="https://hubs.mozilla.com/h3Ls7Bb/surrender-honeydew-conclave/"
-            >
-              {" "}
-              If you could be anywhere - VR experience{" "}
             </Link>
        
             <Div>production & sound design</Div>
