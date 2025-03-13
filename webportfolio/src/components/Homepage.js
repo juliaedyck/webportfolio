@@ -112,7 +112,6 @@ const Contents = styled.div`
   background-color: #8cfa9c;
 
   @media (max-width: 767px) {
-    margin-left: 10%;
     max-width: 90%;
   background-color: #8cfa9c;
 
@@ -122,17 +121,17 @@ const Header = styled.div`
   font-family: "Source Serif Pro", serif;
   writing-mode: vertical-rl;
   position: fixed;
-  font-size: 120px;
-  height: 100%;
-  max-width: 20%;
-  transform: scale(-1);
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  /* margin-top: 0; */
-  /* margin-bottom: 60%;
-top:0; */
-  /* bottom:0; */
+    left: -11px;
+    font-size: 120px;
+    height: 100vh;
+    width: fit-content;
+    transform: scale(-1);
+    display: flex
+;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: justify;
 
   @media (max-height: 645px) {
     font-size: 100px;
@@ -164,28 +163,46 @@ const Columns = styled.div`
 const Column1 = styled.div`
   display: flex;
   flex-direction: column;
-  margin-left: 25%;
+  margin-left: 115px;
+  padding-right: 0;
   min-width: 60%;
   background-color: #8cfa9c;
 
   /* max-width: 70%; */
+  @media (max-width: 1024px) {
+
+margin-left: 140px;
+
+}
 
   @media (max-width: 820px) {
-    margin-left: 15%;
-    /* max-width: 70%; */
-    padding-right: 5%;
+
   background-color: #8cfa9c;
+  margin-left: 120px;
 
   }
+
+
 `;
 
 const Column2 = styled.div`
   display: flex;
   flex-direction: column;
   max-width: 85%;
+
+  @media (max-width: 1024px) {
+
+margin-left: 5%;
+
+
+}
+
   @media (max-width: 820px) {
-    margin-left: 15%;
-    margin-top: 5%;
+
+  background-color: #8cfa9c;
+  margin-left: 120px;
+  margin-top: 5%;
+  padding-bottom: 50px;
   }
 `;
 
