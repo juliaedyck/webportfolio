@@ -36,7 +36,7 @@ const Homepage = () => {
               {" "}
               umland.be{" "}
             </Link>
-            
+
             <Div>project, web design & development</Div>
             <Link target="_blank" href="http://audioplaceboplaza.com/">
               {" "}
@@ -92,6 +92,7 @@ const Wrapper = styled.div`
   position: absolute;
   background-position: center;
   overflow: scroll;
+  overflow-x: hidden;
 
   @media (max-width: 1500px) {
     /* background-size: cover; */
@@ -163,7 +164,7 @@ const Columns = styled.div`
 const Column1 = styled.div`
   display: flex;
   flex-direction: column;
-  margin-left: 22%;
+  margin-left: 25%;
   min-width: 60%;
   background-color: #8cfa9c;
 
