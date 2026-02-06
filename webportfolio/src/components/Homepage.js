@@ -445,6 +445,7 @@ const SmallLink = styled.a`
 
   &:hover {
     text-decoration: underline;
+    color: white;
   }
 
   @media (prefers-reduced-motion: no-preference) {
