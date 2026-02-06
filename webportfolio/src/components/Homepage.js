@@ -53,12 +53,12 @@ const archiveProjects = [
     role: ["Project", "Web design", "Web development"],
     stack: ["React"],
   },
-  {
-    title: "Audio Placebo Plaza",
-    href: "https://audioplaceboplaza.com/",
-    role: ["Project", "Web design", "Web development"],
-    stack: ["React"],
-  },
+  // {
+  //   title: "Audio Placebo Plaza",
+  //   href: "https://audioplaceboplaza.com/",
+  //   role: ["Project", "Web design", "Web development"],
+  //   stack: ["React"],
+  // },
   {
     title: "Spectral Center",
     href: "https://spectral.center",
@@ -68,13 +68,8 @@ const archiveProjects = [
   {
     title: "Listening Field",
     href: "https://listeningfield.be/",
-    role: ["Web design", "Web development"],
+    role: ["Project","Web design", "Web development"],
     stack: ["React"],
-  },
-  {
-    title: "Nibakure",
-    href: "https://www.nibakure.org/",
-    role: ["Web design", "Web development"],
   },
   {
     title: "JuliaEdyck.com",
