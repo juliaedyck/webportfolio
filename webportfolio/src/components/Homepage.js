@@ -494,6 +494,7 @@ const A = styled.a`
 
   &:hover {
     text-decoration: underline;
+    color: white;
   }
 
   &:focus {
