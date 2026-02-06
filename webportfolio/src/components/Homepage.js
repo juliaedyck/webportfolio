@@ -347,6 +347,11 @@ const CTAButton = styled.a`
     outline: 2px solid #000;
     outline-offset: 2px;
   }
+
+    &:hover {
+    text-decoration: underline;
+    color: ${colors.bg};
+  }
 `;
 
 // const CTALink = styled.a`
@@ -445,7 +450,7 @@ const SmallLink = styled.a`
 
   &:hover {
     text-decoration: underline;
-    color: white;
+    color: ${colors.bg};
   }
 
   @media (prefers-reduced-motion: no-preference) {
@@ -495,7 +500,7 @@ const A = styled.a`
 
   &:hover {
     text-decoration: underline;
-    color: white;
+    color: ${colors.bg};
   }
 
   &:focus {
