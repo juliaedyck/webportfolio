@@ -35,7 +35,7 @@ const featuredProjects = [
     slug: "liew-niyomkarn",
   },
   {
-    title: "Umland",
+    title: "Umland Editions",
     href: "https://umland.be",
     role: ["Web design", "Web development"],
     stack: ["React", "Node"],
@@ -53,12 +53,12 @@ const archiveProjects = [
     role: ["Project", "Web design", "Web development"],
     stack: ["React"],
   },
-  // {
-  //   title: "Audio Placebo Plaza",
-  //   href: "https://audioplaceboplaza.com/",
-  //   role: ["Project", "Web design", "Web development"],
-  //   stack: ["React"],
-  // },
+  {
+    title: "Suzanna Inglada",
+    href: "https://susannainglada.com/",
+    role: ["Project", "Web design", "Web development"],
+    stack: ["Wordpress"],
+  },
   {
     title: "Spectral Center",
     href: "https://spectral.center",
@@ -107,7 +107,7 @@ const Homepage = () => {
       <Main id="content">
         <Top>
           <H1>Julia E Dyck</H1>
-          <Tagline>Web design & development for artists and cultural projects — calm systems, clear structure, and care for content.</Tagline>
+          <Tagline>Artist and web developer based in Brussels designing and building websites for artists, cultural organisations, and experimental projects.</Tagline>
           <About>
             I build expressive, resilient websites: clear navigation, strong typography, and systems that stay editable over
             time. I’m at home in React + styled-components, PHP and Wordpress or Kirby CMS, and I care a lot about accessibility and performance.
@@ -155,7 +155,7 @@ const Homepage = () => {
           </Grid>
 
           <Details>
-            <summary>More work (archive)</summary>
+            <summary>More work</summary>
             <ArchiveList>
               {archiveProjects.map((p) => (
                 <li key={p.href}>
@@ -163,6 +163,10 @@ const Homepage = () => {
                     {p.title}
                   </A>
                   <ArchiveMeta> — {p.role.join(" • ")}</ArchiveMeta>
+                      {p.stack && (
+          <ArchiveMeta> — {p.stack.join(" • ")}</ArchiveMeta>
+        )}
+                  
                 </li>
               ))}
             </ArchiveList>
