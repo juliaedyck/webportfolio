@@ -239,16 +239,17 @@ const Homepage = () => {
 };
 
 const colors = {
-  bg: "#8cfa9c",
+  bgFrom: "#F5EFA0",
+  bgTo: "#F2C8C0",
   ink: "#111",
-  inkSoft: "rgba(0,0,0,0.72)",
-  border: "rgba(0,0,0,0.25)",
-  card: "rgba(255,255,255,0.12)",
+  inkSoft: "rgba(0,0,0,0.65)",
+  border: "rgba(0,0,0,0.18)",
+  card: "rgba(255,255,255,0.22)",
 };
 
 const Page = styled.div`
+  background: linear-gradient(160deg, ${colors.bgFrom} 0%, ${colors.bgTo} 100%);
   min-height: 100vh;
-  background: ${colors.bg};
   color: ${colors.ink};
 `;
 
@@ -286,7 +287,7 @@ const NameRail = styled.aside`
 `;
 
 const NameRailText = styled.div`
-  font-family: "Source Serif Pro", serif;
+  font-family: "Bodoni Moda", serif;
   writing-mode: vertical-rl;
   transform: scale(-1);
   font-size: 88px;
@@ -311,14 +312,17 @@ const Top = styled.header`
 `;
 
 const H1 = styled.h1`
-  font-family: "Source Serif Pro", serif;
-  font-size: clamp(42px, 5vw, 64px);
+  font-family: "Bodoni Moda", serif;
+  font-size: clamp(56px, 8vw, 96px);
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  line-height: 0.95;
   margin: 0;
 `;
 
 const Tagline = styled.p`
   margin: 10px 0 0;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 600;
 `;
 
@@ -326,7 +330,7 @@ const About = styled.p`
   margin: 14px 0 0;
   max-width: 62ch;
   color: ${colors.inkSoft};
-  font-family: "Work Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   line-height: 1.5;
 `;
 
@@ -340,21 +344,22 @@ const CTA = styled.div`
 const CTAButton = styled.a`
   display: inline-block;
   padding: 10px 14px;
-  border: 1px solid ${colors.border};
-  background: rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(0,0,0,0.25);
+  background: rgba(0,0,0,0.08);
   text-decoration: none;
   color: ${colors.ink};
-  font-family: "Work Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 600;
+
+  &:hover {
+    background: #111;
+    color: #fff;
+    text-decoration: none;
+  }
 
   &:focus {
     outline: 2px solid #000;
     outline-offset: 2px;
-  }
-
-    &:hover {
-    text-decoration: underline;
-    color: ${colors.bg};
   }
 `;
 
@@ -363,7 +368,7 @@ const CTAButton = styled.a`
 //   padding: 10px 14px;
 //   text-decoration: none;
 //   color: ${colors.ink};
-//   font-family: "Work Sans", sans-serif;
+//   font-family: "Raleway", sans-serif;
 
 //   &:focus {
 //     outline: 2px solid #000;
@@ -373,15 +378,15 @@ const CTAButton = styled.a`
 
 const Section = styled.section`
   padding: 26px 0;
-  border-top: 1px solid ${colors.border};
+  border-top: 1px solid rgba(0,0,0,0.15);
 `;
 
 const SectionTitle = styled.h2`
-  font-family: "Work Sans", sans-serif;
-  font-size: 18px;
+  font-family: "Bodoni Moda", serif;
+  font-weight: 700;
+  font-size: 22px;
   margin: 0 0 14px;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
+  letter-spacing: 0;
 `;
 
 const Grid = styled.div`
@@ -395,9 +400,15 @@ const Grid = styled.div`
 `;
 
 const Card = styled.article`
-  border: 1px solid ${colors.border};
-  background: ${colors.card};
-  padding: 14px;
+  background: rgba(255,255,255,0.18);
+  backdrop-filter: blur(2px);
+  padding: 18px;
+  border: 1px solid transparent;
+  transition: border 200ms ease, background 200ms ease;
+
+  &:hover {
+    border: 1px solid rgba(0,0,0,0.15);
+  }
 `;
 
 const CardTop = styled.div`
@@ -408,18 +419,18 @@ const CardTop = styled.div`
 
 const CardTitle = styled.h3`
   margin: 0;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
 `;
 
 const Meta = styled.div`
-  font-family: "Work Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   color: ${colors.inkSoft};
   font-size: 14px;
 `;
 
 const P = styled.p`
-  font-family: "Work Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   color: ${colors.inkSoft};
   line-height: 1.5;
 `;
@@ -434,7 +445,7 @@ const Badges = styled.div`
 const Badge = styled.span`
   border: 1px solid ${colors.border};
   padding: 4px 8px;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 12px;
 `;
 
@@ -447,14 +458,15 @@ const CardFooter = styled.div`
 `;
 
 const SmallLink = styled.a`
-  font-family: "Work Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 600;
   color: ${colors.ink};
   text-decoration: none;
 
   &:hover {
-    text-decoration: underline;
-    color: ${colors.bg};
+    color: #F2C8C0;
+    text-shadow: 0 0 10px #F2C8C0;
+    text-decoration: none;
   }
 
   @media (prefers-reduced-motion: no-preference) {
@@ -471,7 +483,7 @@ const SmallLink = styled.a`
 `;
 
 const SmallMuted = styled.span`
-  font-family: "Work Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   color: ${colors.inkSoft};
   font-size: 12px;
 `;
@@ -481,7 +493,7 @@ const Details = styled.details`
 
   summary {
     cursor: pointer;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 600;
   }
 `;
@@ -494,7 +506,7 @@ const ArchiveList = styled.ul`
 `;
 
 const ArchiveMeta = styled.span`
-  font-family: "Work Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   color: ${colors.inkSoft};
 `;
 
@@ -503,8 +515,9 @@ const A = styled.a`
   text-decoration: none;
 
   &:hover {
-    text-decoration: underline;
-    color: ${colors.bg};
+    color: #F2C8C0;
+    text-shadow: 0 0 10px #F2C8C0;
+    text-decoration: none;
   }
 
   &:focus {
@@ -530,7 +543,7 @@ const ContactItem = styled.div`
 `;
 
 const Label = styled.div`
-  font-family: "Work Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 12px;
   letter-spacing: 0.02em;
   text-transform: uppercase;
@@ -543,7 +556,7 @@ const TeachingItem = styled.div`
   background: ${colors.card};
   padding: 14px;
   margin-top: 12px;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
 `;
 
 
