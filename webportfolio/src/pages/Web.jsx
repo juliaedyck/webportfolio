@@ -12,7 +12,7 @@ const featuredProjects = [
       "Audio-forward site designed for long listening sessions, with a calm editorial layout and clear content hierarchy.",
   },
   {
-    title: "Hadassa Hemmerich",
+    title: "Hadassah Emmerich",
     href: "https://hadassahemmerich.com/",
     role: ["Web design", "Web development"],
     stack: ["PHP", "CSS", "Kirby CMS"],
@@ -124,7 +124,7 @@ const Web = () => (
       </Section>
 
       <Section aria-label="Case study">
-        <SectionTitle>Case study — Hadassa Hemmerich</SectionTitle>
+        <SectionTitle>Case study — Hadassah Emmerich</SectionTitle>
         <P>
           I love making websites for other artists. The challenge with Hadassah's work is that
           a screen is the opposite of what it is. She makes murals and installations — things
