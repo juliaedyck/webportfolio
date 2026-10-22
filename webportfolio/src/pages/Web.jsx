@@ -27,14 +27,6 @@ const featuredProjects = [
     highlight:
       "Portfolio site prioritizing visual work while remaining lightweight, readable, and easy to maintain.",
   },
-  {
-    title: "Umland Editions",
-    href: "https://umland.be",
-    role: ["Web design", "Web development"],
-    stack: ["React", "Node"],
-    highlight:
-      "Clear, accessible website for a cultural organization, focused on usability, performance, and long-term editability.",
-  },
 ];
 
 const archiveProjects = [
